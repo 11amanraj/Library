@@ -9,6 +9,39 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <h1>User Inputs</h1>
+
+    <form action="">
+        <div>
+            <label for="name">Name of the Book</label>
+            <input type="text"  id="name" name="name" placeholder="The Hobbit">
+        </div>
+
+        <div>
+            <label for="author">Name of the Author</label>
+            <input type="text" id="author" name="author" placeholder="JRR Tolkien">
+        </div>
+
+        <div>
+            <label for="pages">Amount of Pages</label>
+            <input type="number" id="pages" name="pages" placeholder=300>
+        </div>
+
+        <div>
+            <h3>Have you read it?</h3>
+            
+            <label for="isRead-true">Yes!</label>
+            <input type="radio" id="isRead-true" name="isRead" value=true>
+
+            <label for="isRead-false">No</label>
+            <input type="radio" id="isRead-false" name="isRead" value=false>
+        </div>
+    </form>
+
+    <button class="btn">Submit</button>
+
+    <div class="book-cards">
+
+    </div>
 </body>
 </html>

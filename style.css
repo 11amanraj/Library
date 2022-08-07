@@ -1,0 +1,45 @@
+* {
+    font-size: 16px;
+}
+.book-cards {
+    display: flex;
+    background-color: rosybrown;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 16px 24px;
+    min-width: 600px;
+    min-height: 500px;
+}
+
+.book-cards > div {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 8px 8px;
+    border-radius: 16px;
+}
+
+.unread {
+    border: 2px dashed black;
+    background-color: white;
+}
+
+.read {
+    border: 2px solid black;
+    background-color: black;
+}
+
+.book-cards > div > h3 {
+    color: green;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+.book-cards > div > p {
+    color: gray;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0px;
+}
+
